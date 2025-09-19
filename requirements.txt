@@ -1,6 +1,8 @@
-streamlit~=1.41.1
-watchdog
-google-generativeai
-load_dotenv
+streamlit
 pandas
-openpyxl
+openpyxl         # needed for reading .xlsx with pandas
+xlrd             # needed for reading .xls with pandas
+PyMuPDF          # for PDF text extraction
+Pillow           # PIL (used for image handling if needed)
+python-dotenv    # for .env file support
+google-generativeai  # Gemini API SDK
